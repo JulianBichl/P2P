@@ -1,0 +1,3 @@
+docker run -it -v /c/Users/julia/Desktop/topk-master/topk/target/topk-1.0-SNAPSHOT-jar-with-dependencies.jar:/opt/topk.jar topk
+
+hadoop/bin/hadoop -Xmx2048m jar topk.jar p2pcc.TopK
